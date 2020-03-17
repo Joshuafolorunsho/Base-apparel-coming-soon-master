@@ -13,12 +13,13 @@ body {
    min-height: 100vh;
 }
 
-.left {
+#left {
    width: 60%;
 }
 
 #right {
    background-image: url('../images/hero-desktop.jpg');
    background-size: cover;
+   background-position: center center;
    width: 40%;
 }
