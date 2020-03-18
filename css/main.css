@@ -51,13 +51,26 @@ p {
 }
 
 form {
+   position: relative;
 }
 
 form.error
 input {
    background-color: transparent;
    border: none;
-   /* border-radius: ; */
+   border-radius: 50px;
+   border: 1px solid hsl(0, 36%, 70%);
+   height: 55px;
+   padding: 15px 35px;
+   font-size: 16px;
+   width: 100%;
+   font-family: inherit;
+}
+
+img.error {
+   position: absolute;
+   top: 14.5px;
+   right: 110px;
 }
 
 button {
@@ -65,7 +78,10 @@ button {
 	border: none;
 	border-radius: 50px;
 	padding: 15px;
-	width: 100px;
+   width: 100px;
+   position: absolute;
+   top: 0;
+   right: 0;
 }
 
 small {
