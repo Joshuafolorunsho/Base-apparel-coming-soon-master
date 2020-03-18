@@ -72,6 +72,7 @@ img.error {
    position: absolute;
    top: 14.5px;
    right: 110px;
+   display: none;
 }
 
 button {
@@ -86,7 +87,7 @@ button {
 }
 
 small {
-   display: block;
+   display: none;
    color: hsl(0, 93%, 68%);
    padding-top: 15px;
    padding-left: 35px;
